@@ -1,0 +1,51 @@
+# Client Logs and Build Files
+client/logs
+client/*.log
+client/npm-debug.log*
+client/yarn-debug.log*
+client/yarn-error.log*
+client/pnpm-debug.log*
+client/lerna-debug.log*
+client/node_modules
+client/dist
+client/dist-ssr
+client/*.local
+client/.env
+
+# IDE and Editor directories
+
+# VS Code
+client/.vscode/
+!client/.vscode/extensions.json  # Utrzymanie pliku z listą rozszerzeń
+
+# IntelliJ IDEA
+server/.idea/
+server/.idea/modules.xml
+server/.idea/jarRepositories.xml
+server/.idea/compiler.xml
+server/.idea/libraries/
+server/*.iws
+server/*.iml
+server/*.ipr
+
+
+# macOS system files
+client/.DS_Store
+server/.DS_Store
+
+# General build files (IDE-specific)
+server/target/
+server/!**/src/main/**/target/
+server/!**/src/test/**/target/
+
+# Ignore temporary files from IDEs
+client/*.suo
+client/*.ntvs*
+client/*.njsproj
+client/*.sln
+client/*.sw?
+
+.idea
+.idea/
+/.idea
+/.idea/

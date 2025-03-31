@@ -1,6 +1,8 @@
+# PRACA MAGISTERSKA
+Generowanie interfejsu graficznego przy użyciu języka dziedzinowego
 # Pomysly
 
-- [] Możliwośc tworzenia calych projektow
+- [ ] Możliwośc tworzenia calych projektow
 - [ ] W projekcie mozemy tworzyc pliki (np. stron, komponentow, stylowania)
 - [ ] Projekt posiadalby hierarchina strukture (mozna tworzyc foldery itp, np: folder komponenty i tam wrzucic wszytskie komponenty)
 - [ ] Ekran edytora DSL
@@ -15,7 +17,7 @@
   - [ ] poglad maly (obok edytora)
   - [ ] podglad pelny (optwierana jest nowa zakladka)
   - [ ] mozliwosc 'debugowania' w podgladzie
-- Jeśli utworzymy komponent to możemy sie do niego odwołac wszedzie w aplikacji
+- [ ] Jeśli utworzymy komponent to możemy sie do niego odwołac wszedzie w aplikacji
 - [ ] Miedzystronnicowy routing dostepny w kodzie DSL ale takze w edytorze routingu (jak edytor diagramow ERD)
 - [ ] widok struktury tworzeonego widoku w aplikacji tj. np.
   - root
@@ -37,18 +39,13 @@
 - [ ] jak rozwiazac problem z poyencjalnie nowymi elementami ?
 - [ ] baza danych -> mongo ?
 - [ ] wybor nowego projektu to wybor pustego badz dostepnej templatki
-
 - [ ] w przypadku calego projektu fajnym dodatkiem byla by mozliwosc podlaczenia bazy danych -> nie wchodzi to w zakres projektu i kodu DSL do generowania interfejsu ale bylo by ciekawie
-
 - [ ] mozliwosc dodawania pliku do projektu i odwolywania sie do nich w nazwie po stronie edytora
-
 - [ ] mozliwosc pobrania kodu DSL (utworzenie wlasnego rozszerzenia czy JSON) oraz jego wygranie do
-
 - [ ] stylowanie jako wybor czy w osobnym pliku czy w pliku danego komponentu podczas pobierania
-
 - [ ] mapa strony przy utworzeniu kilku stron
 
-# Znaki zapytan
+# Inne
 
 - [ ] AI?
 - [ ] integracja do figmy ? w dwie strony

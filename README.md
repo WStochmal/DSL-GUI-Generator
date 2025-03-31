@@ -2,30 +2,28 @@
 Generowanie interfejsu graficznego przy użyciu języka dziedzinowego
 # Pomysly
 
-- [ ] Możliwośc tworzenia calych projektow
-- [ ] W projekcie mozemy tworzyc pliki (np. stron, komponentow, stylowania)
-- [ ] Projekt posiadalby hierarchina strukture (mozna tworzyc foldery itp, np: folder komponenty i tam wrzucic wszytskie komponenty)
+- [ ] Możliwość tworzenia całych projektów
+- [ ] W projekcie możemy tworzyc pliki (np. stron, komponentów, stylowania)
+- [ ] Projekt posiadalby hierarchina strukture (mozna tworzyć foldery itp, np: folder komponenty i tam wrzucić wszystkie komponenty)
 - [ ] Ekran edytora DSL
-
-  - [ ] Podswietlana skladnia
-  - [ ] podpowiedzi do semantyki
-  - [ ] podpowiedzi to utyworzonych komponentow
-  - [ ] wyswietlanie bledow
-  - [ ] podswietlenie lini bledu kodu DSL
-
+- [ ] Podświetlana składnia
+- [ ] Podpowiedzi do semantyki
+- [ ] Podpowiedzi to utworzonych komponentów
+- [ ] Wyswietlanie błędów
+- [ ] Podświetlenie lini błedu kodu DSL
 - [ ] Ekran podglądu na żywno edytowanej rzeczy (np. komponentu danego, czy też strony)
-  - [ ] poglad maly (obok edytora)
-  - [ ] podglad pelny (optwierana jest nowa zakladka)
-  - [ ] mozliwosc 'debugowania' w podgladzie
-- [ ] Jeśli utworzymy komponent to możemy sie do niego odwołac wszedzie w aplikacji
-- [ ] Miedzystronnicowy routing dostepny w kodzie DSL ale takze w edytorze routingu (jak edytor diagramow ERD)
-- [ ] widok struktury tworzeonego widoku w aplikacji tj. np.
+  - [ ] Pogląd mały (obok edytora)
+  - [ ] Podgląd pełny (otwierana jest nowa zakladka)
+  - [ ] Możliwość 'debugowania' w podglądzie
+- [ ] Jeśli utworzymy komponent to możemy sie do niego odwołać wszędzie w aplikacji
+- [ ] Miedzystronnicowy routing dostepny w kodzie DSL ale takze w edytorze routingu (jak edytor diagramów ERD)
+- [ ] Widok struktury tworzeonego widoku w aplikacji tj. np.
   - root
     - form # userForm
       - input #username
       - input #password
       - button #submit @submit()
-- [ ] w strukturze widoku możliwos wyboru elementu co skutkowano by podswietleniem danego elementu w strukturze
+- [ ] w strukturze widoku możliwość wyboru elementu co skutkowało by podświetleniem danego elementu w strukturze
 - [ ] ponadto kazdy element ma swoj edytor gdzie mozna by w formie inputu zmienic jakas wartosc co automatycznie zmienialo by kod DSL
 - [ ] mozliwosc udostepniania projektu
 - [ ] mozliwosc logowania

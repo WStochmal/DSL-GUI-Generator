@@ -1,0 +1,10 @@
+.editorContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  border: 1px solid #d9d9d9;
+  border-radius: 2rem;
+  padding: 1rem;
+  box-sizing: border-box;
+}

@@ -1,0 +1,35 @@
+.sidebar {
+    background: goldenrod;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-shrink: 0;
+}
+
+
+/* PRIMARY SIDEBAR */
+
+.sidebar__primary {
+    height: 100%;
+    width: auto;
+    background: skyblue;
+    border-right: 1px solid #ccc;
+    padding: 0.5rem;
+}
+
+
+/* SECONDARY SIDEBAR */
+
+.sidebar__secondary {
+    height: 100%;
+    width: 100%;
+    background: goldenrod;
+    padding: 0.5rem;
+}
+
+.sidebar__border {
+    width: 3px;
+    height: 100%;
+    background: #000;
+    cursor: ew-resize;
+}

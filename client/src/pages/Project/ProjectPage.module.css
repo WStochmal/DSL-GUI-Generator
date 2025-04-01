@@ -1,0 +1,13 @@
+.projectPage {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.projectPage>.projectPage__content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}

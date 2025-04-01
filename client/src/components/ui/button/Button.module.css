@@ -1,12 +1,46 @@
 .btn {
-  background-color: #f4f4f4;
-  color: #333;
-  border: none;
-  padding: 5px 10px;
-  cursor: pointer;
-  display: inline-block;
-  margin: 5px;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 5px;
+    background-color: #f4f4f4;
+    color: #333;
+    border: none;
+    padding: 0.4rem 0.5rem;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 0.5rem;
+}
+
+
+/* TRANSPARENT BTN */
+
+.btn--transparent {
+    background-color: transparent;
+}
+
+.btn--transparent:hover {
+    backdrop-filter: blur(10px) brightness(0.85);
+    -webkit-backdrop-filter: blur(10px) brightness(0.85);
+}
+
+
+/* ICON BTN */
+
+.btn--icon {
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn--icon>img {
+    width: 20px;
+    height: 20px;
+}
+
+
+/* VARIANTS */
+
+.reverseIconColor {
+    filter: invert(1);
 }

@@ -1,5 +1,5 @@
 .sidebar {
-    background: goldenrod;
+    background: var(--color-main);
     height: 100%;
     display: flex;
     flex-direction: row;
@@ -12,9 +12,12 @@
 .sidebar__primary {
     height: 100%;
     width: auto;
-    background: skyblue;
+    background: var(--color-main);
     border-right: 1px solid #ccc;
     padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
 }
 
 
@@ -23,13 +26,14 @@
 .sidebar__secondary {
     height: 100%;
     width: 100%;
-    background: goldenrod;
+    background: var(--color-main);
     padding: 0.5rem;
+    box-sizing: border-box;
 }
 
 .sidebar__border {
     width: 3px;
     height: 100%;
-    background: #000;
+    background: black;
     cursor: ew-resize;
 }

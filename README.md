@@ -1,5 +1,7 @@
 # PRACA MAGISTERSKA
+
 Generowanie interfejsu graficznego przy użyciu języka dziedzinowego
+
 # Pomysly
 
 - [ ] Możliwość tworzenia całych projektów
@@ -42,6 +44,7 @@ Generowanie interfejsu graficznego przy użyciu języka dziedzinowego
 - [ ] mozliwosc pobrania kodu DSL (utworzenie wlasnego rozszerzenia czy JSON) oraz jego wygranie do
 - [ ] stylowanie jako wybor czy w osobnym pliku czy w pliku danego komponentu podczas pobierania
 - [ ] mapa strony przy utworzeniu kilku stron
+- [ ] podglad mobliny, komputerowy - 16:9, 21:9, 1:1 , domyslny dynamiczny
 
 # Inne
 

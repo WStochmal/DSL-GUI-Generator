@@ -21,7 +21,7 @@ export const Button: React.FC<ButtonProps> = ({
 }) => {
   return (
     <button
-      className={`${s.btn} ${s[`btn--${type}`]} ${className}`}
+      className={`${s.btn} ${s[`btn--${type}`]} ${s[`btn--${className}`]}`}
       onClick={onClick}
       disabled={disabled || loading}
     >

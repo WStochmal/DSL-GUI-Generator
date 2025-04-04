@@ -38,6 +38,40 @@ const testProjectData = {
         },
       ],
     },
+    {
+      category: "folder",
+      id: "folderId0",
+      name: "Hierarchy test",
+      type: "folder", //  do I need this?
+      content: [
+        {
+          category: "folder",
+          id: "componentId1",
+          name: "Folder Level 1",
+          type: "folder", //  component or file?
+          content: [
+            {
+              id: "componentId5",
+              name: "Component level 2",
+              type: "component", //  component or file?
+              content: "Lorem ipsum dolor sit amet",
+            },
+            {
+              id: "componentId8",
+              name: "Component level 2",
+              type: "component", //  component or file?
+              content: "Lorem ipsum dolor sit amet,",
+            },
+          ],
+        },
+        {
+          id: "componentId2",
+          name: "Component level 1",
+          type: "component", //  component or file?
+          content: "Lorem ipsum dolor sit amet,",
+        },
+      ],
+    },
   ],
 };
 

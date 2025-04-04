@@ -1,0 +1,18 @@
+.projectFiles__container,
+.projectFiles__container__sub {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+.projectFiles__container__sub {
+    padding-left: 1rem;
+}
+
+.projectFiles__element {
+    display: block;
+}
+
+.projectFiles__element--file {
+    padding-left: calc(16px + 0.5rem);
+}

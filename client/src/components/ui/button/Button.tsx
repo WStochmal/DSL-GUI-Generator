@@ -6,7 +6,8 @@ type ButtonProps = {
   className?: string;
   disabled?: boolean;
   loading?: boolean;
-  icon?: React.ReactNode;
+  icon?: string;
+  iconSize?: number;
   onClick: () => void;
 };
 
@@ -17,6 +18,7 @@ export const Button: React.FC<ButtonProps> = ({
   disabled = false,
   loading = false,
   icon,
+  iconSize = 20,
   onClick,
 }) => {
   return (
@@ -25,7 +27,13 @@ export const Button: React.FC<ButtonProps> = ({
       onClick={onClick}
       disabled={disabled || loading}
     >
-      {icon && <span className={s.icon}>{icon}</span>}
+      {icon && (
+        <img
+          className={s.icon}
+          src={icon}
+          style={{ width: iconSize, height: iconSize }}
+        ></img>
+      )}
       {loading ? "Loading..." : children}
     </button>
   );

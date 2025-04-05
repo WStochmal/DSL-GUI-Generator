@@ -11,6 +11,7 @@
 
 .projectFiles__element {
     display: block;
+    position: relative;
 }
 
 .projectFiles__element--file {

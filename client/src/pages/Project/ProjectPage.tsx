@@ -7,6 +7,7 @@ import { WindowManager } from "../../components/features/editor/WindowManager/Wi
 import s from "./ProjectPage.module.css";
 import { useProjectContext } from "../../hooks/useProjectContext";
 import { useEffect } from "react";
+import { AppContextProvider } from "../../context/AppContext";
 
 export const ProjectPage = () => {
   const { projectId } = useParams();
@@ -20,12 +21,14 @@ export const ProjectPage = () => {
   }, []);
 
   return (
-    <div className={s.projectPage}>
-      <Header />
-      <div className={s.projectPage__content}>
-        <Sidebar />
-        <WindowManager />
+    <AppContextProvider>
+      <div className={s.projectPage}>
+        <Header />
+        <div className={s.projectPage__content}>
+          <Sidebar />
+          <WindowManager />
+        </div>
       </div>
-    </div>
+    </AppContextProvider>
   );
 };

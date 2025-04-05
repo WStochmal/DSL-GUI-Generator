@@ -51,3 +51,7 @@ Generowanie interfejsu graficznego przy użyciu języka dziedzinowego
 - [ ] AI?
 - [ ] integracja do figmy ? w dwie strony
 - [ ] integracja z google drive ?
+
+# Notatki
+
+- przerobic komponent button i zastosowac do wszytskich elementow

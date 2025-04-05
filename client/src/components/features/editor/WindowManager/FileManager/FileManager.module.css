@@ -1,0 +1,35 @@
+.fileManager {
+    display: flex;
+    background: white;
+    border-bottom: 1px solid #ccc;
+    box-sizing: border-box;
+    overflow-x: scroll;
+}
+
+.fileManager__file {
+    padding: 0.5rem;
+    border-right: 1px solid #ccc;
+    display: flex;
+    gap: 0.5rem;
+    justify-content: left;
+    align-items: center;
+    cursor: pointer;
+    flex-wrap: nowrap;
+    box-sizing: border-box;
+}
+
+.fileManager__file--active {
+    /* background: var(--color-active); */
+    border-bottom: 5px solid var(--color-active);
+}
+
+.fileManager__file p {
+    margin-right: 1rem;
+    font-size: 0.9rem;
+    white-space: nowrap;
+}
+
+.fileManager__file__icon {
+    width: 16px;
+    height: 16px;
+}

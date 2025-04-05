@@ -9,6 +9,7 @@ type ButtonProps = {
   icon?: string;
   iconSize?: number;
   onClick: () => void;
+  onContextMenu?: (e: React.MouseEvent<HTMLButtonElement>) => void;
 };
 
 export const Button: React.FC<ButtonProps> = ({
@@ -20,11 +21,13 @@ export const Button: React.FC<ButtonProps> = ({
   icon,
   iconSize = 20,
   onClick,
+  onContextMenu,
 }) => {
   return (
     <button
       className={`${s.btn} ${s[`btn--${type}`]} ${s[`btn--${className}`]}`}
       onClick={onClick}
+      onContextMenu={onContextMenu}
       disabled={disabled || loading}
     >
       {icon && (

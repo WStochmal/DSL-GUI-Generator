@@ -62,6 +62,26 @@ const testProjectData = {
               type: "component", //  component or file?
               content: "Lorem ipsum dolor sit amet,",
             },
+            {
+              category: "folder",
+              id: "componentId9",
+              name: "Folder Level 2",
+              type: "folder", //  component or file?
+              content: [
+                {
+                  id: "componentId10",
+                  name: "Component level 3",
+                  type: "component", //  component or file?
+                  content: "Lorem ipsum dolor sit amet",
+                },
+                {
+                  id: "componentId11",
+                  name: "Component level 3",
+                  type: "component", //  component or file?
+                  content: "Lorem ipsum dolor sit amet,",
+                },
+              ],
+            },
           ],
         },
         {

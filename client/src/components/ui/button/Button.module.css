@@ -12,6 +12,11 @@
     justify-content: center;
     align-items: center;
     gap: 0.5rem;
+    z-index: 1;
+}
+
+.btn:hover {
+    background-color: #dbe2ec;
 }
 
 
@@ -67,6 +72,11 @@
 .btn--projectFiles__folder img {
     width: 16px;
     height: 16px;
+}
+
+.btn--fileManager__close img {
+    width: 10px;
+    height: 10px;
 }
 
 .icon {

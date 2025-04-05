@@ -1,0 +1,48 @@
+.contextWindow {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    width: 200px;
+    height: auto;
+    border: 1px solid #ccc;
+    background: var(--color-main);
+    list-style: none;
+    border-radius: 0.5rem;
+}
+
+.contextWindow__element {
+    display: block;
+    cursor: pointer;
+    border-bottom: 1px solid #ccc;
+    font-size: 13px;
+}
+
+.contextWindow__element:last-child {
+    border-bottom: none;
+}
+
+
+/* TODO get rid of those style buttons from here */
+
+
+/* CONTEXT BNTS */
+
+.contextWindow__element>button {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    display: flex;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+.contextWindow__element>button:hover {
+    background: #dbe2ec;
+}
+
+.contextWindow__element>button>img {
+    width: 16px;
+    height: 16px;
+    margin-right: 0.5rem;
+}

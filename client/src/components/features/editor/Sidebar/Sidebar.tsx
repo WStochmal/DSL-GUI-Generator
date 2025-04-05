@@ -18,12 +18,10 @@ export const Sidebar = () => {
     document.addEventListener("mousemove", handleMouseMoveX);
     document.addEventListener("mouseup", handleMouseUp);
 
-    console.log("Mouse down");
     e.preventDefault();
   };
 
   const handleMouseMoveX = (e) => {
-    console.log(e.clientX);
     setSecondarySidebarWidth(e.clientX);
   };
 
@@ -34,9 +32,7 @@ export const Sidebar = () => {
   };
 
   useEffect(() => {
-    const handleMouseMoving = (e) => {
-      console.log(e.clientX, e.clientY);
-    };
+    const handleMouseMoving = (e) => {};
 
     document.addEventListener("mouseMove", handleMouseMoving);
   }, []);
